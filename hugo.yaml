@@ -1,0 +1,141 @@
+baseURL: https://blog.rayae.icu
+languageCode: zh-cn
+title: 计算机爱好者的闲言碎语
+theme: PaperMod
+paginate: 8 # 分页大小
+summaryLength: 40 # 文章摘要字数
+copyright: '计算机爱好者的闲言碎语'
+enableEmoji: true
+hasCJKLanguage : true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: false
+languages:
+  zh:
+    languageCode: zh-CN
+    languageDirection: ltr
+    languageName: Chinese
+    weight: 1
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # 搜索依赖
+
+params:
+  env: production
+  description: "just run and delete"
+  keywords: [Blog]
+  author: Rayae
+  DateFormat: "1月2日 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  extendCodeBackground: false
+  ShowWordCount: true
+  VisitCount: true
+  ShowLastMod: true
+  timeZone: "Asia/Shanghai"
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.ico"
+
+  label:
+    text: "闲言碎语"
+    icon: ""
+    iconHeight: 0
+
+  homeInfoParams:
+    Title: "「知行合一，早日退休」 \U0001F44B"
+    Content: >
+      —— 总是时不时想记录点什么，所以就在这里好了，作为我来人世间行走的足迹。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: email
+      url: "mailto:rayaeup@outlook.com"
+    - name: rss
+      url: "index.xml"
+
+  editPost:
+    URL: "https://github.com/rayae/rayae.github.io/blob/main/content"
+    Text: "编辑"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  StartYear: 2020
+  # FilingNo: 填写自己的备案号 # 底部备案号
+  # PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  # PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
+
+  # 封面
+  cover:
+    hiddenInList: true
+
+  profileMode:
+    enabled: false
+    title: Rayae
+    subtitle: "行走的足迹"
+    imageUrl: "/avatar.jpg"
+    imageTitle: Rayae
+    imageWidth: 120
+    imageHeight: 120
+
+    # 图标
+    buttons:
+      - name: About
+        url: /about
+      - name: 建站
+        url: /notes/tutorial/
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      url: /search
+      weight: 1
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 3
+    - identifier: archives
+      name: 时间线
+      url: /archives/
+      weight: 4
+    - identifier: about
+      name: 关于
+      url: /about
+      weight: 5
+
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
