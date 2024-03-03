@@ -1,10 +1,12 @@
 baseURL: https://blog.rayae.icu
-languageCode: zh-cn
-title: 计算机爱好者的闲言碎语
+languageCode: zh
+defaultContentLanguage: zh
+
+title: 今日事今日毕
 theme: PaperMod
 paginate: 8 # 分页大小
 summaryLength: 40 # 文章摘要字数
-copyright: '计算机爱好者的闲言碎语'
+# copyright: '计算机爱好者的闲言碎语'
 enableEmoji: true
 hasCJKLanguage : true
 
@@ -12,14 +14,9 @@ minify:
   disableXML: true
   minifyOutput: true
 
-defaultContentLanguage: zh
-defaultContentLanguageInSubdir: false
-languages:
-  zh:
-    languageCode: zh-CN
-    languageDirection: ltr
-    languageName: Chinese
-    weight: 1
+permalinks: # 访问博客时网址的显示形式
+  post: "/:title/"
+  # post: "/:year/:month/:day/:title/"
 
 outputs:
   home:
@@ -29,12 +26,13 @@ outputs:
 
 params:
   env: production
-  description: "just run and delete"
-  keywords: [Blog]
+  description: "闲言碎语，说点什么好呢"
+  keywords: [Blog, 博客, 码农, 程序员]
   author: Rayae
   DateFormat: "1月2日 2006"
   defaultTheme: auto
   disableThemeToggle: false
+  ShowToc: true
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -46,11 +44,10 @@ params:
   VisitCount: true
   ShowLastMod: true
   timeZone: "Asia/Shanghai"
-
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.ico"
+    favicon32x32: "/favicon-32x32.png"
 
   label:
     text: "闲言碎语"
@@ -60,7 +57,9 @@ params:
   homeInfoParams:
     Title: "「知行合一，早日退休」 \U0001F44B"
     Content: >
-      —— 总是时不时想记录点什么，所以就在这里好了，作为我来人世间行走的足迹。
+      - ✨ 总是时不时想记录点什么，所以就在这里好了，作为我来人世间行走的足迹。
+
+      - 💬 今日事今日毕，切忌工作不是生活的全部。
 
   socialIcons:
     - name: github
@@ -84,8 +83,8 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-  StartYear: 2020
-  # FilingNo: 填写自己的备案号 # 底部备案号
+  StartYear: 2018
+  FilingNo: 浙ICP备2023053621号-1 # 底部备案号
   # PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   # PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
@@ -93,23 +92,27 @@ params:
   cover:
     hiddenInList: true
 
+  # Reward: true
+  # WechatPay: img/wechat_pay.png
+  # Alipay: img/alipay.png
+
   profileMode:
     enabled: false
     title: Rayae
-    subtitle: "行走的足迹"
+    subtitle: "Hi 👋, I'm rayae"
     imageUrl: "/avatar.jpg"
     imageTitle: Rayae
     imageWidth: 120
     imageHeight: 120
-
-    # 图标
     buttons:
-      - name: About
+      - name: 关于
         url: /about
-      - name: 建站
-        url: /notes/tutorial/
 menu:
   main:
+    - identifier: home
+      name: 主页
+      url: /
+      weight: 1
     - identifier: search
       name: 搜索
       url: /search
@@ -122,14 +125,14 @@ menu:
       name: 标签
       url: /tags/
       weight: 3
-    - identifier: archives
+    - identifier: timeline
       name: 时间线
-      url: /archives/
+      url: /timeline/
       weight: 4
-    - identifier: about
-      name: 关于
-      url: /about
-      weight: 5
+    # - identifier: about
+    #   name: 关于
+    #   url: /about
+    #   weight: 5
 
 markup:
   highlight:
