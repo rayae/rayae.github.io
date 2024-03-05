@@ -2,7 +2,7 @@
 title: 'Rustdesk Linux 下显示 NO Display 的解决办法'
 categories: ["Linux"]
 tags: ["rustdesk", "xvfb", "rdp"]
-draft: true
+draft: false
 date: 2024-03-05T22:48:57+08:00
 ---
 ## 问题描述
