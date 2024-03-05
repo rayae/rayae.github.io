@@ -1,0 +1,12 @@
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.post-content pre,
+pre>code {
+    font-family: "JetBrains Mono", "Consolas", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
