@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "4d3dd4cc1c72cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "020ab66e0635fc8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0992313f5734c8d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024/archlinux-in-wsl/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9aa07a5fb29b4d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024/archlinux-in-wsl/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "500e3c0320fec230",
+    "type": "split",
+    "children": [
+      {
+        "id": "42b24bb9ee758864",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d117f469680ab77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "d15528d3509d88c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "15afa88d522023b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "right": {
+    "id": "6f0e89429f16c10d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed353fc93b7b20d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72ecb1cb052e643",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/2024/archlinux-in-wsl/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "de7dfb5eb5f01cbe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/2024/archlinux-in-wsl/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f4404693a4c9bbb3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dda0fa9ee04fe36f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/2024/archlinux-in-wsl/index.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "0992313f5734c8d5",
+  "lastOpenFiles": [
+    "content/posts/2024/rustdesk-in-displayless/index.md",
+    "content/posts/2024/archlinux-in-wsl/index.md",
+    "content/posts/2024/archlinux-in-wsl/attachments/add-chn.png",
+    "content/posts/2024/archlinux-with-wslg/_index.md",
+    "content/posts/_index.md",
+    "Tcsec/周报/2024-03-15 周报.md",
+    "Tcsec/周报/2024-03-22 周报.md",
+    "Tcsec/周报/过去式/2024-03-08 周报.md",
+    "Tcsec/周报/过去式/2024-01-19周报.md",
+    "Tcsec/周报/过去式/2024-03-01 周报.md",
+    "Tcsec/周报/过去式/2024-02-23 周报.md",
+    "Tcsec/周报/过去式/2024-02-02 周报.md",
+    "Tcsec/周报/过去式/2024-01-26周报.md",
+    "Tcsec/周报/过去式/2023-03-17-周报.md",
+    "Tcsec/周报/过去式/2023-03-24-周报.md",
+    "技术栈/Xpra.md",
+    "未命名.md",
+    "Tcsec/杂七杂八/CentOS7扩容.md",
+    "Tcsec/周报/BSCA.md",
+    "Tcsec/服务器密码.md",
+    "Tcsec/Kubernetes/cri-dockerd.md",
+    "Tcsec/Kubernetes/containerd.md",
+    "Papers.md",
+    "Tcsec/SCA/漏洞可达性分析/检测引擎技术方案.md",
+    "Tcsec/杂七杂八/WIFI.md",
+    "Tcsec/杂七杂八/安全类产品.md",
+    "Pasted image 20231107142910.png",
+    "Tcsec/安全技术创新部/信通院5G研究院入网设备调研.pdf",
+    "Tcsec/安全技术创新部",
+    "Tcsec/创新技术部/~$二进制文件的开源软件安全分析技术.docx",
+    "Tcsec/创新技术部/BSCA~0A1D7.tmp",
+    "Tcsec/创新技术部/~$BSCA.docx",
+    "Tcsec/周报/年底 RASP需求/轻量级RASP部署.pdf",
+    "轻量级RASP部署.pdf",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107105140.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107105113.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107104557.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107104243.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107103933.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107103812.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107102621.png",
+    "Tcsec/周报/年底 RASP需求/attachments/Pasted image 20240107101830.png",
+    "Tcsec/周报/年底 RASP需求/attachments",
+    "Tcsec/周报/年底 RASP需求",
+    "Tcsec/季度考核/李涛 2023年度第四季度工作考核~DA60B.tmp"
+  ]
+}
